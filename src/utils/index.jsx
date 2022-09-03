@@ -1,8 +1,8 @@
 export function getClass(i) {
-    if (i % 5 === 0) {
+    if (i % 2 === 0) {
         return 'big';
     }
-    else if (i % 6 === 0) {
+    else if (i % 3 === 0) {
         return 'wide'
     }
 }
